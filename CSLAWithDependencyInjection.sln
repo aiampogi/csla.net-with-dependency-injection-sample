@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.UI", "CSLAWithDependencyInjection.UI\CSLAWithDependencyInjection.UI.csproj", "{A61A6A73-AF90-444D-B362-9304166D253C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Business", "CSLAWithDependencyInjection.Business\CSLAWithDependencyInjection.Business.csproj", "{362F12CD-478A-426A-A66B-FDC484D7CF21}"
@@ -19,40 +21,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.UI.Test", "CSLAWithDependencyInjection.UI.Test\CSLAWithDependencyInjection.UI.Test.csproj", "{FB3F28F6-081E-4F17-8890-B1D41CA6E734}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1E859BAB-EE46-41D6-9F89-882A5AEA2F05}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE69F394-8FB9-44BD-AD18-44CE4BB8939B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 10
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs24
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = CSLAWithDependencyInjection.UI\\CSLAWithDependencyInjection.UI.csproj
-		SccProjectName1 = CSLAWithDependencyInjection.UI
-		SccLocalPath1 = CSLAWithDependencyInjection.UI
-		SccProjectUniqueName2 = CSLAWithDependencyInjection.Business\\CSLAWithDependencyInjection.Business.csproj
-		SccProjectName2 = CSLAWithDependencyInjection.Business
-		SccLocalPath2 = CSLAWithDependencyInjection.Business
-		SccProjectUniqueName3 = CSLAWithDependencyInjection.Data.Interface\\CSLAWithDependencyInjection.Data.Interface.csproj
-		SccProjectName3 = CSLAWithDependencyInjection.Data.Interface
-		SccLocalPath3 = CSLAWithDependencyInjection.Data.Interface
-		SccProjectUniqueName4 = CSLAWithDependencyInjection.Data.Models\\CSLAWithDependencyInjection.Data.Models.csproj
-		SccProjectName4 = CSLAWithDependencyInjection.Data.Models
-		SccLocalPath4 = CSLAWithDependencyInjection.Data.Models
-		SccProjectUniqueName5 = CSLAWithDependencyInjection.Data.MyDataAccess\\CSLAWithDependencyInjection.Data.MyDataAccess.csproj
-		SccProjectName5 = CSLAWithDependencyInjection.Data.MyDataAccess
-		SccLocalPath5 = CSLAWithDependencyInjection.Data.MyDataAccess
-		SccProjectUniqueName6 = CSLAWithDependencyInjection.Bootstrapper\\CSLAWithDependencyInjection.Bootstrapper.csproj
-		SccProjectName6 = CSLAWithDependencyInjection.Bootstrapper
-		SccLocalPath6 = CSLAWithDependencyInjection.Bootstrapper
-		SccProjectUniqueName7 = CSLAWithDependencyInjection.WCFPortal\\CSLAWithDependencyInjection.WCFPortal.csproj
-		SccProjectName7 = CSLAWithDependencyInjection.WCFPortal
-		SccLocalPath7 = CSLAWithDependencyInjection.WCFPortal
-		SccProjectUniqueName8 = CSLAWithDependencyInjection.Business.Test\\CSLAWithDependencyInjection.Business.Test.csproj
-		SccProjectName8 = CSLAWithDependencyInjection.Business.Test
-		SccLocalPath8 = CSLAWithDependencyInjection.Business.Test
-		SccProjectUniqueName9 = CSLAWithDependencyInjection.UI.Test\\CSLAWithDependencyInjection.UI.Test.csproj
-		SccProjectName9 = CSLAWithDependencyInjection.UI.Test
-		SccLocalPath9 = CSLAWithDependencyInjection.UI.Test
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

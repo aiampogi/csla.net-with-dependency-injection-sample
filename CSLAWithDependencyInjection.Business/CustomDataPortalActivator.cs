@@ -87,5 +87,11 @@ namespace CSLAWithDependencyInjection.Business
                 return businessObjectInterface;
             }
         }
+
+
+        public void FinalizeInstance(object obj)
+        {
+            //throw new NotImplementedException();
+        }
     }
 }
