@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.UI", "CSLAWithDependencyInjection.UI\CSLAWithDependencyInjection.UI.csproj", "{A61A6A73-AF90-444D-B362-9304166D253C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Business", "CSLAWithDependencyInjection.Business\CSLAWithDependencyInjection.Business.csproj", "{362F12CD-478A-426A-A66B-FDC484D7CF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Data.Interface", "CSLAWithDependencyInjection.Data.Interface\CSLAWithDependencyInjection.Data.Interface.csproj", "{558CDCD4-3966-4846-A60C-67543723D141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Data.Models", "CSLAWithDependencyInjection.Data.Models\CSLAWithDependencyInjection.Data.Models.csproj", "{55A48A2C-6718-4768-868F-94A189BCB47A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Data.MyDataAccess", "CSLAWithDependencyInjection.Data.MyDataAccess\CSLAWithDependencyInjection.Data.MyDataAccess.csproj", "{BC818BF9-7A45-4709-B884-6DBE26DE3283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Bootstrapper", "CSLAWithDependencyInjection.Bootstrapper\CSLAWithDependencyInjection.Bootstrapper.csproj", "{22509FE1-42C6-4171-9D8D-5CF9F61651C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.WCFPortal", "CSLAWithDependencyInjection.WCFPortal\CSLAWithDependencyInjection.WCFPortal.csproj", "{61526746-B2C3-433F-9CF2-17725CBCAECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.Business.Test", "CSLAWithDependencyInjection.Business.Test\CSLAWithDependencyInjection.Business.Test.csproj", "{A569B01B-0F7A-48E9-8EAD-9103EB270081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLAWithDependencyInjection.UI.Test", "CSLAWithDependencyInjection.UI.Test\CSLAWithDependencyInjection.UI.Test.csproj", "{FB3F28F6-081E-4F17-8890-B1D41CA6E734}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs24
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSLAWithDependencyInjection.UI\\CSLAWithDependencyInjection.UI.csproj
+		SccProjectName1 = CSLAWithDependencyInjection.UI
+		SccLocalPath1 = CSLAWithDependencyInjection.UI
+		SccProjectUniqueName2 = CSLAWithDependencyInjection.Business\\CSLAWithDependencyInjection.Business.csproj
+		SccProjectName2 = CSLAWithDependencyInjection.Business
+		SccLocalPath2 = CSLAWithDependencyInjection.Business
+		SccProjectUniqueName3 = CSLAWithDependencyInjection.Data.Interface\\CSLAWithDependencyInjection.Data.Interface.csproj
+		SccProjectName3 = CSLAWithDependencyInjection.Data.Interface
+		SccLocalPath3 = CSLAWithDependencyInjection.Data.Interface
+		SccProjectUniqueName4 = CSLAWithDependencyInjection.Data.Models\\CSLAWithDependencyInjection.Data.Models.csproj
+		SccProjectName4 = CSLAWithDependencyInjection.Data.Models
+		SccLocalPath4 = CSLAWithDependencyInjection.Data.Models
+		SccProjectUniqueName5 = CSLAWithDependencyInjection.Data.MyDataAccess\\CSLAWithDependencyInjection.Data.MyDataAccess.csproj
+		SccProjectName5 = CSLAWithDependencyInjection.Data.MyDataAccess
+		SccLocalPath5 = CSLAWithDependencyInjection.Data.MyDataAccess
+		SccProjectUniqueName6 = CSLAWithDependencyInjection.Bootstrapper\\CSLAWithDependencyInjection.Bootstrapper.csproj
+		SccProjectName6 = CSLAWithDependencyInjection.Bootstrapper
+		SccLocalPath6 = CSLAWithDependencyInjection.Bootstrapper
+		SccProjectUniqueName7 = CSLAWithDependencyInjection.WCFPortal\\CSLAWithDependencyInjection.WCFPortal.csproj
+		SccProjectName7 = CSLAWithDependencyInjection.WCFPortal
+		SccLocalPath7 = CSLAWithDependencyInjection.WCFPortal
+		SccProjectUniqueName8 = CSLAWithDependencyInjection.Business.Test\\CSLAWithDependencyInjection.Business.Test.csproj
+		SccProjectName8 = CSLAWithDependencyInjection.Business.Test
+		SccLocalPath8 = CSLAWithDependencyInjection.Business.Test
+		SccProjectUniqueName9 = CSLAWithDependencyInjection.UI.Test\\CSLAWithDependencyInjection.UI.Test.csproj
+		SccProjectName9 = CSLAWithDependencyInjection.UI.Test
+		SccLocalPath9 = CSLAWithDependencyInjection.UI.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A61A6A73-AF90-444D-B362-9304166D253C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61A6A73-AF90-444D-B362-9304166D253C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61A6A73-AF90-444D-B362-9304166D253C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61A6A73-AF90-444D-B362-9304166D253C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362F12CD-478A-426A-A66B-FDC484D7CF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362F12CD-478A-426A-A66B-FDC484D7CF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362F12CD-478A-426A-A66B-FDC484D7CF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362F12CD-478A-426A-A66B-FDC484D7CF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558CDCD4-3966-4846-A60C-67543723D141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558CDCD4-3966-4846-A60C-67543723D141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558CDCD4-3966-4846-A60C-67543723D141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558CDCD4-3966-4846-A60C-67543723D141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A48A2C-6718-4768-868F-94A189BCB47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A48A2C-6718-4768-868F-94A189BCB47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A48A2C-6718-4768-868F-94A189BCB47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A48A2C-6718-4768-868F-94A189BCB47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC818BF9-7A45-4709-B884-6DBE26DE3283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC818BF9-7A45-4709-B884-6DBE26DE3283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC818BF9-7A45-4709-B884-6DBE26DE3283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC818BF9-7A45-4709-B884-6DBE26DE3283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22509FE1-42C6-4171-9D8D-5CF9F61651C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22509FE1-42C6-4171-9D8D-5CF9F61651C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22509FE1-42C6-4171-9D8D-5CF9F61651C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22509FE1-42C6-4171-9D8D-5CF9F61651C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61526746-B2C3-433F-9CF2-17725CBCAECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61526746-B2C3-433F-9CF2-17725CBCAECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61526746-B2C3-433F-9CF2-17725CBCAECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61526746-B2C3-433F-9CF2-17725CBCAECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A569B01B-0F7A-48E9-8EAD-9103EB270081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A569B01B-0F7A-48E9-8EAD-9103EB270081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A569B01B-0F7A-48E9-8EAD-9103EB270081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A569B01B-0F7A-48E9-8EAD-9103EB270081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3F28F6-081E-4F17-8890-B1D41CA6E734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3F28F6-081E-4F17-8890-B1D41CA6E734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3F28F6-081E-4F17-8890-B1D41CA6E734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3F28F6-081E-4F17-8890-B1D41CA6E734}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
